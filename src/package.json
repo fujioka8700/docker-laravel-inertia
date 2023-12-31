@@ -1,4 +1,11 @@
 {
+  "name": "docker-laravel-inertia",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:fujioka8700/docker-laravel-inertia.git"
+  },
   "private": true,
   "type": "module",
   "scripts": {
