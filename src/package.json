@@ -12,6 +12,8 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "build-only": "vite build",
+    "test:dev": "vitest",
+    "test:prd": "vitest run",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
@@ -22,16 +24,19 @@
     "@vitejs/plugin-vue": "^4.5.0",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/test-utils": "^2.4.3",
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.12",
     "axios": "^1.6.1",
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.19.2",
+    "happy-dom": "^12.10.3",
     "laravel-vite-plugin": "^1.0.0",
     "npm-run-all2": "^6.1.1",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.2.1",
     "vite": "^5.0.0",
+    "vitest": "^1.1.1",
     "vue": "^3.2.41",
     "vue-tsc": "^1.8.27"
   }
