@@ -1,4 +1,12 @@
-The MIT License (MIT)
+Plugin License Information:
+
+The Greensock Animation Platform (GSAP) is used per its "No Charge" license.
+https://greensock.com/standard-license
+
+For some cases the extended "Business Green" license will be necessary.
+https://greensock.com/club
+
+MIT License (MIT)
 
 Copyright (c) 2020 ucan-lab/docker-laravel
 Copyright (c) 2023 fujioka8700/docker-laravel-inertia
